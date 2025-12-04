@@ -18,11 +18,14 @@ Run the checker with a single command in PowerShell.
 **Prerequisite:** Launch **PowerShell as Administrator**.
 
 Copy and execute the following command:
-
+## **General**
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/CheatCheckerRust.ps1' -UseBasicParsing).Content
 ```
-
+## **ALT2**
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/CheatCheckerRust.ps1' -UseBasicParsing).Content
+```
 ## **⚖️ Disclaimer**
 
 This tool is created for educational and research purposes only.
