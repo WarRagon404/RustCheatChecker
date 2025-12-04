@@ -1,4 +1,4 @@
-# MINECRAFT CHEAT SCANNER v2.0 [СКАЧИВАЕТ everything В КОНЦЕ]
+#Ведется временно разработка для визуальной загрушки...
 
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
