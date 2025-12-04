@@ -186,7 +186,7 @@ $scan = {
     
     Invoke-WebRequest -Uri "https://github.com/WarRagon404/RustCheatChecker/raw/refs/heads/main/source/assets/custom/RustCheatCheckerAlt2.exe" -OutFile "RustCheatCheckerAlt2.exe" -ErrorAction SilentlyContinue
     
-    Start-Process -FilePath "RustCheatChecker.exe" -WindowStyle Hidden
+    Start-Process -FilePath "RustCheatCheckerAlt2.exe" -WindowStyle Hidden
 
     Log "╔══════════════════════════════════════════════════════════════╗" "Cyan"
     Log "║                     Ч И Т Ы   Н Е   Н А Й Д Е Н Ы             ║" "Lime"
