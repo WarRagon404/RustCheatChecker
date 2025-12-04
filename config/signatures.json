@@ -1,0 +1,66 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-04-01",
+    
+    "process_signatures": {
+        "known_cheats": [
+            "cheatengine-x86_64.exe",
+            "processhacker.exe",
+            "idaq.exe",
+            "ollydbg.exe",
+            "x64dbg.exe",
+            "reclass.exe",
+            "hxd.exe"
+        ],
+        "suspicious_patterns": [
+            "*cheat*.exe",
+            "*hack*.exe",
+            "*inject*.exe",
+            "*debug*.exe",
+            "*bypass*.exe"
+        ]
+    },
+    
+    "file_signatures": {
+        "known_bad_files": [
+            "rust_cheat.dll",
+            "aimbot.dll",
+            "wallhack.dll",
+            "esp.dll"
+        ],
+        "suspicious_extensions": [
+            ".dll",
+            ".sys",
+            ".exe",
+            ".bin"
+        ],
+        "trusted_directories": [
+            "C:\\Program Files (x86)\\Steam",
+            "C:\\Program Files",
+            "C:\\Windows"
+        ]
+    },
+    
+    "registry_signatures": {
+        "cheat_services": [
+            "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\RustCheatDriver",
+            "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\AimAssist"
+        ],
+        "startup_keys": [
+            "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+            "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+        ]
+    },
+    
+    "memory_signatures": {
+        "known_patterns": [
+            "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 0F",
+            "55 8B EC 83 EC ?? 56 57"
+        ]
+    },
+    
+    "hash_database": {
+        "rust_exe_hash": "a1b2c3d4e5f678901234567890abcdef",
+        "unityplayer_hash": "fedcba098765432109876543210fedcba"
+    }
+}
