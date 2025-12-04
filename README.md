@@ -20,7 +20,7 @@ Run the checker with a single command in PowerShell.
 Copy and execute the following command:
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/main.ps1' -UseBasicParsing).Content
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/CheatCheckerRust.ps1' -UseBasicParsing).Content
 ```
 
 ## **⚖️ Disclaimer**
