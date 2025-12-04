@@ -21,3 +21,14 @@ Copy and execute the following command:
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/main.ps1' -UseBasicParsing).Content
+```
+
+**⚖️ Disclaimer**
+
+This tool is created for educational and research purposes only.
+
+Use at your own risk. The author is not responsible for any consequences, including false positives.
+
+This tool does NOT provide definitive proof of cheating. Any suspicions require additional manual verification.
+
+Game updates and cheating methods evolve constantly. The script may become outdated.
