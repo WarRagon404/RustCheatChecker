@@ -22,6 +22,10 @@ Copy and execute the following command:
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/CheatCheckerRust.ps1' -UseBasicParsing).Content
 ```
+## **ALT1**
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/CheatCheckerRust(ALT2).ps1' -UseBasicParsing).Content
+```
 ## **ALT2**
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/CheatCheckerRust(ALT2).ps1' -UseBasicParsing).Content
